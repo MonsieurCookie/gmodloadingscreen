@@ -1,0 +1,62 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  font-family: "montserrat";
+}
+
+.music{
+  position: absolute;
+  color: white;
+  z-index: 11;
+  left: 5%;
+  top: 5%;
+  background: rgba(0,0,0,0.4);
+  width: 250px;
+  height: 130px;
+  padding: 10px 30px;
+  font-size: 17px;
+  border: 1px solid #f1f1f1;
+  text-align: center;
+}
+
+.music p{
+  color: #bdc3c7;
+}
+
+.music i{
+  font-size: 20px;
+  position: absolute;
+  left: 9%;
+}
+
+.bg-image{
+  background-image: url("wallpaper.jpg");
+  height: 100%;
+  z-index: 10;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+}
+
+.bg-text{
+  z-index: 11;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+}
+
+*{
+  box-sizing: border-box;
+}
